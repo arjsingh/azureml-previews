@@ -1,7 +1,7 @@
 # AutoML DNN-NLP
 
 ## Overview
-The appearance of [transformer structure](https://arxiv.org/abs/1706.03762) and the later development of [BERT](https://arxiv.org/abs/1810.04805) has greatly boosted machine learning's performance on NLP tasks. Now, you can take the advantage of BERT and apply this power pretrained model on you own tasks with Azure Machine Learning AutoML NLP capability. 
+The advent of the [transformer architecture](https://arxiv.org/abs/1706.03762) and the later development of [BERT](https://arxiv.org/abs/1810.04805) has greatly boosted machine learning's performance on NLP tasks. Now, you can take the advantage of BERT and apply this powerful pretrained model on you own tasks with Azure Machine Learning AutoML NLP capability. 
 
 Currently, our AutoML DNN-NLP service supports three scenarios: 
 * multi-class classification
@@ -15,12 +15,12 @@ Currently, our AutoML DNN-NLP service supports three scenarios:
 
 * Azure subscription. If you don't have an Azure subscription, , sign up to try the [free or paid version of Azure Machine Learning](https://azure.microsoft.com/free/) today.
 * A Workspace with GPUs available. Please check [this page](https://docs.microsoft.com/en-us/azure/virtual-machines/sizes-gpu) for more details of GPU instances provided by Azure
-* In order to utilize this new feature with our SDK, please follow the setup instruction on [this page](https://github.com/ZeratuuLL/azureml-examples/tree/main/python-sdk/tutorials/automl-with-azureml). That would be enough to start AutoML DNN-NLP runs with jupyter notebook. If you would like to explore more about our DNN-NLP module, you can do ``` pip install azureml-automl-dnn-nlp ```
+* In order to utilize this new feature with our SDK, please follow the setup instruction on [this page](https://github.com/ZeratuuLL/azureml-examples/tree/main/python-sdk/tutorials/automl-with-azureml). That would be enough to start AutoML DNN-NLP runs with a jupyter notebook. If you would like to explore more about our DNN-NLP offering, you can do so by running ``` pip install azureml-automl-dnn-nlp ```
 
 ## Getting started
 
 ### Quick Start
-For a quick start with a live notebook, please refer to [this example notebook](https://github.com/ZeratuuLL/azureml-examples/tree/lifengwei/multiclass-notebook/python-sdk/tutorials/automl-with-azureml/automl-dnn-nlp) for a complete AutoML DNN-NLP run for multi-class scenario. You can also learn how to run multi-label and NER tasks with code snippets example and sample data.
+For a quick start with a live demo notebook, please refer to [this example notebook](https://github.com/ZeratuuLL/azureml-examples/tree/lifengwei/multiclass-notebook/python-sdk/tutorials/automl-with-azureml/automl-dnn-nlp) for a complete AutoML DNN-NLP run for multi-class scenario. You can also learn how to run multi-label and NER tasks with code snippets example and sample data.
 
 ### General procedure
 For the general procedure of setting AutoML DNN-NLP run, all three scenarios share similar steps:
